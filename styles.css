@@ -1,0 +1,159 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #dff8ec;
+    color: #383838;
+}
+
+#intro h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 10rem;
+}
+
+#intro p {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#herbs div {
+    background: #f9f4ce;
+    margin: auto;
+    position: relative;
+}
+
+#spices div {
+    background: #f9f4ce;
+    margin: auto;
+    position: relative;
+}
+
+.sp, .hr {
+    border: 0.1em solid #383838;
+    border-radius: 0.5em;
+}
+
+#explainer p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+#herbs .btn, #spices .btn {
+    z-index: 10;
+}
+
+#herbs div:nth-of-type(2) {
+    position: relative;
+    top: -8em;
+    z-index: 9;
+}
+
+#herbs div:nth-of-type(3) {
+    position: relative;
+    top: -15em;
+    z-index: 8;
+}
+
+#herbs div:nth-of-type(4) {
+    position: relative;
+    top: -22em;
+    z-index: 7;
+}
+
+#herbs div:nth-of-type(5) {
+    position: relative;
+    top: -29em;
+    z-index: 6;
+}
+
+#herbs div:nth-of-type(6) {
+    position: relative;
+    top: -36em;
+    z-index: 5;
+}
+
+#herbs div:nth-of-type(7) {
+    position: relative;
+    top: -44em;
+    z-index: 4;
+}
+
+#herbs div:nth-of-type(8) {
+    position: relative;
+    top: -51em;
+    z-index: 3;
+}
+
+#herbs div:nth-of-type(9) {
+    position: relative;
+    top: -58em;
+    z-index: 2;
+}
+
+#herbs div:nth-of-type(10) {
+    position: relative;
+    top: -65em;
+    z-index: 1;
+}
+
+#spices div:nth-of-type(2) {
+    position: relative;
+    top: -8em;
+    z-index: 9;
+}
+
+#spices div:nth-of-type(3) {
+    position: relative;
+    top: -15em;
+    z-index: 8;
+}
+
+#spices div:nth-of-type(4) {
+    position: relative;
+    top: -22em;
+    z-index: 7;
+}
+
+#spices div:nth-of-type(5) {
+    position: relative;
+    top: -29em;
+    z-index: 6;
+}
+
+#spices div:nth-of-type(6) {
+    position: relative;
+    top: -36em;
+    z-index: 5;
+}
+
+#spices div:nth-of-type(7) {
+    position: relative;
+    top: -44em;
+    z-index: 4;
+}
+
+#spices div:nth-of-type(8) {
+    position: relative;
+    top: -51em;
+    z-index: 3;
+}
+
+#spices div:nth-of-type(9) {
+    position: relative;
+    top: -58em;
+    z-index: 2;
+}
+
+#spices div:nth-of-type(10) {
+    position: relative;
+    top: -65em;
+    z-index: 1;
+}
+
+#herbs .btn:active, #spices .btn:active {
+    position: static;
+}
