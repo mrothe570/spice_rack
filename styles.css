@@ -34,6 +34,7 @@ body {
 .sp, .hr {
     border: 0.1em solid #383838;
     border-radius: 0.5em;
+    transition: 0.5s ease-in 0;
 }
 
 #explainer p {
@@ -42,7 +43,7 @@ body {
     font-weight: 400;
 }
 
-#herbs .btn, #spices .btn {
+/* #herbs .btn, #spices .btn {
     z-index: 10;
 }
 
@@ -152,8 +153,4 @@ body {
     position: relative;
     top: -65em;
     z-index: 1;
-}
-
-#herbs .btn:active, #spices .btn:active {
-    position: static;
-}
+} */
